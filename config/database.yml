@@ -85,6 +85,13 @@ test:
 #
 production:
   <<:
-  database: services_production
-  username: services
-  password: <%= ENV['SERVICES_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
+  database: dau3jat0849khr
+  pool: 5
+  username: ccrkxnfcgjorwk
+  password: 8304a8e4d5836d36955f2b67cce29cc47fd0fdb95634724f6f3729bf66f11a62
+  url: "postgres://ccrkxnfcgjorwk:8304a8e4d5836d36955f2b67cce29cc47fd0fdb95634724f6f3729bf66f11a62@ec2-23-21-109-177.compute-1.amazonaws.com/dau3jat0849khr"
+  #database: services_production
+  #username: services
+  #password: <%= ENV['SERVICES_DATABASE_PASSWORD'] %>
